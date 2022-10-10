@@ -19,4 +19,4 @@ jobs:
           deta-access-token: ${{ secrets.DETA_TOKEN }} #Deta access token https://docs.deta.sh/docs/cli/auth
           deta-name: 'fastapi-url-shortener' #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
           deta-project: 'Github' #Optional: Deta project name https://docs.deta.sh/docs/cli/commands/#deta-clone
-          deta-project-dir: 'other-dir' #Optional: directory to be deployed on Deta. Default is the root "." 
+          deta-project-dir: '.' #Optional: directory to be deployed on Deta. Default is the root "." 
